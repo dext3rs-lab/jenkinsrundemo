@@ -1,0 +1,12 @@
+{
+   "AWSTemplateFormatVersion":"2010-09-09",
+   "Description":"A sample Template",
+   "Resources":{
+      "myS3Bucket":{
+         "Type":"AWS::S3::Bucket",
+         "Properties":{
+            "BucketName":"d3xt3r-using-jenkins"
+         }
+      }
+   }
+}
